@@ -5,6 +5,10 @@ Thank you for trying this. It's an early build of a factory game: you
 build a drone factory on an asteroid, lift drones up to an orbital
 platform, and ship them down to open up the planet below.
 
+Each world wraps round: walk east far enough and you're back where you
+started. The ice at the top and bottom is the poles - nothing builds
+there. Scroll all the way out to see the whole planet as a globe.
+
 Everything is placeholder: art, balance, no sound yet. What I most want
 to know is what confused you, what felt slow, and where you got stuck.
 
@@ -34,7 +38,8 @@ want to play with belts.
 
 CONTROLS (the full list is under Controls in the menu)
 --------
-  WASD / arrows      pan          mouse wheel    zoom
+  WASD / arrows      pan          mouse wheel    zoom (out past the
+                                                 map: the globe)
   1-5                build menu   left click     place / open a building
   R                  rotate       right click    remove (hold to sweep)
   drag               lay a belt   Q              pick the hovered building
@@ -64,3 +69,5 @@ KNOWN ISSUES
 - Balance is a first draft: rates and drone costs will change.
 - No sound.
 - Saves from this build won't load in later builds.
+- Zoomed all the way out over a very dense factory, the map can slow
+  down.
